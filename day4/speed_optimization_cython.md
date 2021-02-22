@@ -4,7 +4,7 @@ The naive implementation takes about 6 s, and the Scipy version about 0.1 s (i.e
 
 ## c) 
 Profiling using `kernprof -l -v rbf.py`, see output below.
-The naive implementation is spending a lot of time in the nested for loop, which are very inefficient in python. Scipy has the routine implemented in a low-level language.
+The naive implementation is spending a lot of time in the nested for loop, which is very inefficient in python. Scipy has the routine implemented in a low-level language.
 
 ## d) 
 Getting some some advice from the Cython documentation (http://docs.cython.org/en/latest/src/userguide/numpy_tutorial.html), i cut the time down to around 0.2 s. 

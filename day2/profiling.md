@@ -1,4 +1,4 @@
-#3a)
+# 3a)
 ## speed
 Profiled using 
 

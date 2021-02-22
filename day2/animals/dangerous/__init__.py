@@ -1,0 +1,2 @@
+from .fish import Fish
+
